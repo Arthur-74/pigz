@@ -1,0 +1,46 @@
+.header {
+  display:flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  justify-content: center;
+  // align-items: center;
+  width: 100%;
+  height: 1015px;
+  background: linear-gradient(117deg, rgb(250, 100, 30) 0%, rgb(255, 136, 31) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+}
+
+.content{
+  display: block;
+  width: 390px;
+}
+
+.header_content {
+  display: flex;
+}
+
+.header_titulo{
+  padding: 32px 0 0 0;
+  height: 200px;
+  width: 310px;
+  font-size: 30pt;
+  font-family: Poppins;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  line-height: 48px;
+  z-index: 1;
+}
+
+.burger_img{
+  width: 250px;
+  height: 250px;
+  margin-left: -80px;
+  margin-right: -100px;
+}
+.headerP{
+  max-width: 382px;
+  color: white;
+  font-weight: 200;
+  line-height: 24px;
+}
